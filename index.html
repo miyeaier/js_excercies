@@ -1,0 +1,41 @@
+<!DOCTYPE HTML> 
+<html> 
+<head>
+    <link rel="stylesheet" href="index.css">
+    <title>java script demo </title>
+</head>
+
+
+<body>
+
+    
+
+<script>
+
+// #setTimeout(()#=> { 
+    
+    document.addEventListener('DOMConentloaded'),()=>{
+  let myButton = document.querySelector('botton')
+  myButton.addEventListener('click',changegreeting)
+
+
+function changegreeting(name){ 
+    let greetingElement = document.getElementById('greeting')
+greetingElement.innerText ="HELLO "+name;
+greetingElement.style.color="green"
+greetingElement.style.color="100px"
+}
+    }
+// }, 3000)
+
+
+
+</script>
+
+<h1 id="greeting">hello world </h1>
+    <button onclick="changegreeting('Abb')"> click me to chane greeting </button>"
+
+
+
+</body>
+</html>
